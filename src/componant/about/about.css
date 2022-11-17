@@ -1,0 +1,33 @@
+.about{background-color: #1ABC9C;}
+.about h2{font-size: 3.5rem;}
+.icon2{color: white;position: relative; display: inline-block;}
+.icon2::after {
+    content: "";
+    background-color: #ffffff;
+    height: 4px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-left: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.icon2::before {
+    content: "";
+    background-color: #fff;
+    height: 4px;
+    width: 100px;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    margin-right: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

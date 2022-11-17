@@ -1,0 +1,5 @@
+.item{background-color: #2C3E50;z-index: 999;}
+.hight1{height: 100px;}
+.hight2{height: 80px;}
+.navbar{width: 85%;}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{background-color: #1ABC9C;}

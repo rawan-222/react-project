@@ -1,0 +1,40 @@
+.home {
+    background-color: #1ABC9C;
+}
+
+.home1 {
+    flex-direction: column;
+}
+
+.icon::after {
+    content: "";
+    background-color: white;
+    height: 4px;
+    width: 100px;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-left: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.home1 h1{font-size: 4.5rem;}
+.icon::before {
+    content: "";
+    background-color: white;
+    height: 4px;
+    width: 100px;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    margin-right: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.home1 img{width: 50%;}
