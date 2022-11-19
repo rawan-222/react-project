@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import '@fortawesome/fontawesome-free/css/all.css'
 import './navbar.css'
+import { click } from '@testing-library/user-event/dist/click'
 
 
 export default class Navbar extends Component {
@@ -41,4 +42,8 @@ export default class Navbar extends Component {
         )
     }
 }
-
+document.addEventListener("scroll",function (e) {
+ setInterval(function() {
+    document.querySelector("nav").classList.replace("hight1","hight2")
+ })
+},1000)
